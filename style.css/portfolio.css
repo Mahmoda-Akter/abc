@@ -1,0 +1,51 @@
+font open sens{
+    font-family: "Poppins", sans-serif;
+}
+.btn{
+    background-color: #FD6E0A;
+    border: none;
+    padding: 18px 35px;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box ;
+}
+header{
+    background-color:#FFF8F3 ;
+    padding-top: 50px;
+}
+nav{
+    width: 71%;
+    max-width: 1140px;
+    /* border: 1px solid red; */
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+logo{
+    font-size: 45px;
+    font-weight: 900;
+
+}
+.colororange{
+    color:#FD6E0A;
+}
+nav .manu{
+    display: flex;
+   
+    align-items: center;
+    list-style: none;
+    gap: 51px;
+}
+nav .manu a{
+    font-size: 20px;
+    color:#474747 ;
+    text-decoration: none;
+}
