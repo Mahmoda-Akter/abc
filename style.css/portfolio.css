@@ -8,6 +8,7 @@ font open sens{
     color: white;
     border-radius: 5px;
     font-size: 20px;
+    cursor: pointer;
 }
 *{
     padding: 0;
@@ -16,6 +17,9 @@ font open sens{
 }
 header{
     background-color:#FFF8F3 ;
+    background: url("../images/developer.png") ,url("../images/header_bg.png"),#FFF8F3;
+    background-position: top left, bottom right ;
+    background-repeat: no-repeat;
     padding-top: 50px;
 }
 nav{
@@ -48,4 +52,74 @@ nav .manu a{
     font-size: 20px;
     color:#474747 ;
     text-decoration: none;
+}
+
+#banner{
+    /* border: 1px solid red; */
+    margin: 47px 38px 0 195px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner .bannercontent{
+    max-width: 585px;
+}
+#banner .bannercontent h2{
+    font-size: 45px;
+    font-weight: 600px;
+    color: #474747;
+    margin-bottom: 5px;
+}
+#banner .bannercontent h1{
+    font-size: 45px;
+    font-weight: 600px;
+    color: #181818;
+    margin-bottom: 20px;
+
+}
+#banner .bannercontent p{
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+#banner .bannerimage{
+    max-width: 585px;
+    vertical-align: middle;
+
+}
+
+#about{
+    padding-top: 130px;
+}
+#about .about_container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0px auto;
+    text-align: center;
+    background-color:#FFF8F3 ;
+    padding: 135px 156px;
+}
+.seaction_heading{
+    max-width: 827px;
+    text-align: center;
+}
+.seaction_heading h2{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.seaction_heading p{
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 30px;
+    color: #757575;
+
+}
+
+#about .about_container .about_info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
