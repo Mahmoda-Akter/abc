@@ -105,6 +105,7 @@ nav .manu a{
 .seaction_heading{
     max-width: 827px;
     text-align: center;
+    
 }
 .seaction_heading h2{
     font-size: 35px;
@@ -123,3 +124,40 @@ nav .manu a{
     justify-content: space-around;
     align-items: center;
 }
+#skills{
+    padding: 130px;
+}
+#skills .slills_container{
+    width: 71%;
+    max-width: 1140px;
+    /* background-color: aqua;  */
+    margin: 0 auto;
+}
+/* .seaction_heading1{
+    max-width: 827px;
+    text-align: center;
+    margin: 0 auto;
+    
+} */
+#skills .slills_container .skills_box{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+
+    
+
+}
+.skills_box .skill_card{
+    padding: 13px; 
+    box-shadow: 0 6px 50px 0 #0000001a;
+    /* border: 1px solid black; */
+    max-width: 267px; 
+
+} 
+.skill_card img{
+    max-width: 44px;
+    margin-bottom: 30px;
+} 
+
+
+
