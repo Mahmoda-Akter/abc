@@ -10,6 +10,9 @@ font open sens{
     font-size: 20px;
     cursor: pointer;
 }
+.text_aling{
+    text-align: center;
+}
 *{
     padding: 0;
     margin: 0;
@@ -18,7 +21,7 @@ font open sens{
 header{
     background-color:#FFF8F3 ;
     background: url("../images/developer.png") ,url("../images/header_bg.png"),#FFF8F3;
-    background-position: top left, bottom right ;
+    background-position: 23px 38px, bottom right ;
     background-repeat: no-repeat;
     padding-top: 50px;
 }
@@ -91,7 +94,7 @@ nav .manu a{
 
 }
 
-#about, #skills, #resume{
+#about, #skills, #resume {
     padding-top: 130px;
 }
 #about .about_container{
@@ -197,7 +200,48 @@ nav .manu a{
     line-height: 28px;
     color:#757575;
 }
+footer{
+    margin-top: 130px;
+   background-color: #FFF8F3; 
+   padding: 130px 0;
+}
+footer .footer_container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 116px;
+}
+.footer_container .socail{
+    max-width: 562px;
 
+}
+.footer_container .socail p{
+    color: #474747;
+    line-height: 28px;
+    margin-bottom: 30px;
+
+}
+.footer_container h2{
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 20px;
+
+}
+.footer_container .icon a{
+    margin-right: 24px;
+}
+.footer_container form input[type="text"] ,
+.footer_container form textarea{
+    width: 451px;
+    padding: 18px 31px;
+   margin-bottom: 24px;
+   border: none;
+   border-radius: 5px;
+   color: #757575;
+
+    
+}
 
 
 
